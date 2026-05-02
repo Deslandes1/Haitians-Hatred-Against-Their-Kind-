@@ -87,13 +87,17 @@ ui_text = {
 def _(key):
     return ui_text[st.session_state.lang].get(key, key)
 
+# ---------- BEAST IMAGE FOR CHAPTER 1 (royalty‑free, symbolic) ----------
+beast_image_url = "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format"
+# Alternative (fallback): "https://images.unsplash.com/photo-1506703719100-f0b3c5c7c9b4?w=600&auto=format"
+
 # ---------- CHAPTERS DATA (ENGLISH) ----------
 chapters_en = [
     {
         "title": "Chapter 1: The Translator Who Never Flew",
-        "image": "https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=600&auto=format",
+        "image": beast_image_url,
         "text": "This is the story about a Haitian translator who missed several opportunities to legally travel to the United States of America. Haitian families have this tendency to hate you and pray that you never find an opportunity like that, to travel to the United States of America. In every Haitian you will find this demon of hatred to another Haitian fellow – naturally hating you if they suspect you want to travel to the United States. When I check AI and my own logic as a human being, they all resonated the same thing: if I cannot make it, I don't want you to make it. If you finally make it, and I couldn't kill you in the process, you will be considered as victorious and respectable. That's the beast.",
-        "caption": "A Haitian translator looking at an airplane"
+        "caption": "A dark beast – symbol of the hidden hatred within"
     }
 ]
 
@@ -101,9 +105,9 @@ chapters_en = [
 chapters_fr = [
     {
         "title": "Chapitre 1 : Le traducteur qui n'a jamais volé",
-        "image": chapters_en[0]["image"],
+        "image": beast_image_url,
         "text": "Voici l'histoire d'un traducteur haïtien qui a manqué plusieurs occasions de se rendre légalement aux États‑Unis d'Amérique. Les familles haïtiennes ont cette tendance à vous haïr et à prier pour que vous ne trouviez jamais une telle opportunité. Chez chaque Haïtien, vous trouverez ce démon de la haine envers un autre Haïtien – vous haïr naturellement s'ils soupçonnent que vous voulez voyager vers les États‑Unis. Quand je consulte l'IA et ma propre logique d'être humain, elles résonnent toutes de la même manière : si je n'y arrive pas, je ne veux pas que tu y arrives. Si finalement tu y arrives, et que je n'ai pas pu te tuer en cours de route, tu seras considéré comme victorieux et respectable. Voilà la bête.",
-        "caption": "Un traducteur haïtien regardant un avion"
+        "caption": "Une bête sombre – symbole de la haine cachée à l'intérieur"
     }
 ]
 
@@ -111,9 +115,9 @@ chapters_fr = [
 chapters_es = [
     {
         "title": "Capítulo 1: El traductor que nunca voló",
-        "image": chapters_en[0]["image"],
+        "image": beast_image_url,
         "text": "Esta es la historia de un traductor haitiano que perdió varias oportunidades de viajar legalmente a los Estados Unidos de América. Las familias haitianas tienen esta tendencia a odiarte y rezar para que nunca encuentres una oportunidad así. En cada haitiano encontrarás este demonio de odio hacia otro haitiano – odiarte naturalmente si sospechan que quieres viajar a los Estados Unidos. Cuando consulto a la IA y mi propia lógica como ser humano, todas resuenan lo mismo: si yo no puedo lograrlo, no quiero que tú lo logres. Si finalmente lo logras, y no pude matarte en el proceso, serás considerado victorioso y respetable. Esa es la bestia.",
-        "caption": "Un traductor haitiano mirando un avión"
+        "caption": "Una bestia oscura – símbolo del odio escondido dentro"
     }
 ]
 
