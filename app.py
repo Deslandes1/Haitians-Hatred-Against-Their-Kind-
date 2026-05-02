@@ -87,9 +87,8 @@ ui_text = {
 def _(key):
     return ui_text[st.session_state.lang].get(key, key)
 
-# ---------- BEAST IMAGE FOR CHAPTER 1 (royalty‑free, symbolic) ----------
-beast_image_url = "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format"
-# Alternative (fallback): "https://images.unsplash.com/photo-1506703719100-f0b3c5c7c9b4?w=600&auto=format"
+# ---------- BEAST IMAGE FOR CHAPTER 1 (from GitHub) ----------
+beast_image_url = "https://raw.githubusercontent.com/Deslandes1/Haitians-Hatred-Against-Their-Kind-/main/33382.jpg"
 
 # ---------- CHAPTERS DATA (ENGLISH) ----------
 chapters_en = [
